@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://joellhss.github.io/challenge-one-sprint-01/">
+    <a href="https://joellhss.github.io/challenge-one-front-end-sprint-01-do-figma-ao-html-e-css/">
         Página demonstrativa
     </a>
   </h3>
@@ -19,7 +19,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/joellhss/challenge-one-sprint-01/blob/main/assets/Captura%20de%20tela%20de%202022-08-08%2019-10-54.png?raw=true)
+![screenshot](https://github.com/joellhss/challenge-one-front-end-sprint-01-do-figma-ao-html-e-css/blob/main/assets/screencapture-127-0-0-1-5500-index-html-2022-10-24-16_02_17.png?raw=true)
 
 Este projeto foi desenvolvido com o objetivo de cumprir o desafio "Challenge ONE Front-End Sprint 01" e de praticar os conteúdos aprendidos na trilha 2: "Front End T3 - ONE".
 
