@@ -1,0 +1,92 @@
+.skills, .hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+}
+
+.skills h2, .hobbies h2{
+    margin-bottom: 32px;
+}
+
+.skills .boxes, .hobbies .boxes  {
+    display: flex;
+    gap: 16px;
+}
+
+.skills .box, .hobbies .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 8px;
+    background: #ffffff;
+    padding: 16px;
+}
+
+.skills .box:hover, .hobbies .box:hover {
+    scale: 1.03;
+    transition: 200ms;
+}
+
+.skills .box i, .hobbies .box i {
+    color: var(--blue-500);
+    font-size: 24px;
+}
+
+.skills .box p, .hobbies .box p {
+   font-weight: 700;
+}
+
+
+@media screen and (min-width: 0) {
+    .skills, .hobbies {
+        padding: 0 10px;
+        width: 100%;
+        max-width: 1136px;
+    }
+    .skills .boxes, .hobbies .boxes  {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .skills .box, .hobbies .box {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .skills, .hobbies {
+        padding: 0 34px;
+    }
+
+    .skills .boxes, .hobbies .boxes  {
+        gap: 16px;
+    }
+
+    .skills .box, .hobbies .box {
+        width: calc(33% - 16px);
+        height: 174px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1170px) {
+    .skills, .hobbies  {
+        padding: 0 0;
+    }
+
+    .skills .boxes, .hobbies .boxes  {
+        flex-wrap: nowrap;
+    }
+
+    .skills .box, .hobbies .box {
+        width: calc(100%/6 - 16px);
+    }
+
+}

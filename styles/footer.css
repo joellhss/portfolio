@@ -1,0 +1,19 @@
+footer {
+    padding: 32px 0;
+}
+
+footer span{
+    color: var(--blue-500);
+}
+
+footer a{
+    color: var(--blue-500);
+}
+
+footer a:hover{
+    color: var(--black-500);
+}
+
+footer a:active{
+    scale: .8px;
+}

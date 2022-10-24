@@ -1,0 +1,104 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a:hover {
+    color: var(--blue-500);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.ph-sparkle {
+    font-size: 1.5rem;
+    margin-right: .2rem;
+}
+
+.menu {
+    display: flex;
+     align-items: center;
+     gap: 32px;
+     position: relative;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+header .email {
+    font-weight: 700;
+}
+
+.darkMode {
+    display: flex;
+    border: none;
+    border: solid 1px var(--blue-500);
+    border-radius: 100%;
+    padding: 5px;
+    background-color: transparent;
+    color: var(--blue-500);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.darkMode:active i {
+    scale: 0.5;
+    transition: 200ms;
+}
+
+@media screen and (min-width: 0) {
+    header {
+        padding: 32px 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    .email {
+        display: none;
+    }
+ 
+
+}
+
+@media screen and (min-width: 768px) {
+    header {
+        padding: 32px 34px;
+    }
+
+    .email {
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width: 1024px) {
+    header {
+        max-width: 1136px;
+    }
+
+    .menu ul{
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width: 1170px) {
+    header {
+        padding: 32px 0;
+    }
+
+}

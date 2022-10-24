@@ -1,0 +1,155 @@
+.contact {
+    background: var(--blue-300);
+    display: flex;
+    justify-content: center;
+    width: 99.2vw;
+    padding: 64px 0;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-img {
+    max-height: 607px;
+    width: 464px;
+    object-fit: cover;
+}
+
+.info h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 8px;
+}
+
+#contatoForm {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+}
+
+#contatoForm label {
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    height: 60px;
+    background-color: var(--blue-100);
+    border-radius: 5px;
+}
+
+#contatoForm label:nth-child(4) {
+    height: 133px;
+}
+
+#contatoForm label p {
+    color: var(--blue-500);
+    margin-bottom: 4px;
+    padding: 8px 12px 0 12px;
+}
+
+#contatoForm input, #contatoForm textarea {
+    background: transparent;
+    border: none;
+    width: 100%;
+    outline-style: none;
+    height: 100%;
+    color: var(--black-500);
+    font-size: 16px;
+    border-bottom: 3px solid #d2def0;
+    padding: 0 12px 8px 12px;
+    border-radius: 0 0 5px 5px;
+    resize: none;
+}
+
+#contatoForm label input:focus, #contatoForm label textarea:focus {
+  border-color: var(--blue-500);
+}
+
+#contatoForm button {
+    background-color: var(--blue-500);
+    color: var(--blue-100);
+    width: 30%;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#contatoForm button:hover {
+    background-color: #246ac5;
+}
+
+#contatoForm button:active {
+    scale: .8;
+}
+
+
+@media screen and (min-width: 0) {
+    .contact {
+        padding: 64px 10px;
+    }
+    .contact-container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        max-width: 1136px;
+    }
+
+    #contatoForm label {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 60px;
+        background-color: var(--blue-100);
+        border-radius: 5px;
+    }
+
+    .contact-img {
+        display: none;
+    }
+
+    #contatoForm button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contact {
+        padding: 64px 34px;
+    }
+
+   
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-container{
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    .contact-img {
+        display: flex;
+        width: 35%;
+    }
+
+    .info {
+        width: 65%;
+    }
+
+    #contatoForm button {
+        width: 40%;
+    }
+    
+}
+
+@media screen and (min-width: 1170px) {
+    .experience {
+        padding: 64px 0;
+    }
+
+}
