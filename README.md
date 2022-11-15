@@ -1,4 +1,4 @@
-<h1 align="center">Challenge ONE Front-End Sprint 01: Do Figma ao HTML e CSS</h1>
+<h1 align="center">Challenge ONE Front-End Sprint 01: Portfolio</h1>
 
 <div align="center">
   <h3>
